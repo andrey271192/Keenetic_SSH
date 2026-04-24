@@ -4,6 +4,8 @@
 
 Логика SSH и команд взята из [keenetic-unified](https://github.com/andrey271192/keenetic-unified).
 
+![Превью: Telegram и команды SSH](docs/preview.png)
+
 ---
 
 ## Возможности
@@ -32,14 +34,14 @@ bash install.sh
 nano .env
 ```
 
-Пример `.env`:
+Пример `.env` (подставь свои значения из [@BotFather](https://t.me/BotFather) и свой числовой chat id):
 
 ```env
-TELEGRAM_TOKEN=123456:ABC...
-TELEGRAM_CHAT_ID=371010834
+TELEGRAM_TOKEN=000000000:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+TELEGRAM_CHAT_ID=000000000
 
 SSH_USER=root
-SSH_PASS=keenetic
+SSH_PASS=your_router_password
 ```
 
 Перезапуск после правок `.env`:
@@ -58,21 +60,21 @@ journalctl -u keenetic-ssh -f
 
 ## Роутеры
 
-Добавить из Telegram:
+Добавить из Telegram (имя, IP и при необходимости логин/пароль SSH):
 
 ```
-/add andrey 212.118.42.105 root keenetic
+/add office1 192.168.1.1 root your_password
 ```
 
 Или отредактировать `data/routers.json` на сервере:
 
 ```json
 {
-  "andrey": {
-    "ip": "192.168.88.1",
+  "office1": {
+    "ip": "192.168.1.1",
     "user": "root",
-    "password": "keenetic",
-    "display_name": "Дом Andrey",
+    "password": "your_password",
+    "display_name": "Офис 1",
     "web_url": ""
   }
 }
