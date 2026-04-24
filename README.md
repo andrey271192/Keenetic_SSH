@@ -105,6 +105,8 @@ journalctl -u keenetic-ssh -f
 
 [Boosty — донат](https://boosty.to/andrey27/donate)
 
+**Связь:** [Telegram @Iot_andrey](https://t.me/Iot_andrey) — вопросы и обратная связь.
+
 ---
 
 ## Обновление
