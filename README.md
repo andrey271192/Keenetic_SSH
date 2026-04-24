@@ -103,7 +103,10 @@ journalctl -u keenetic-ssh -f
 
 ## Поддержка
 
-[Boosty — донат](https://boosty.to/andrey27/donate)
+- [Boosty — донат](https://boosty.to/andrey27/donate)
+- Перевод в **Т-Банк**: [страница перевода](https://www.tinkoff.ru/rm/r_avmEGQKPOg.NbQhLsnBth/YW9h150011)
+
+![QR-код — перевод в Т-Банк](docs/donation_qr.png)
 
 **Связь:** [Telegram @Iot_andrey](https://t.me/Iot_andrey) — вопросы и обратная связь.
 
