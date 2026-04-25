@@ -114,3 +114,13 @@ journalctl -u keenetic-ssh -f
 ```bash
 cd /opt/keenetic-ssh && git pull && systemctl restart keenetic-ssh
 ```
+
+## Удаление с сервера (одной командой)
+
+Останавливается `keenetic-ssh`, удаляется unit и каталог **`/opt/keenetic-ssh`**:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/andrey271192/Keenetic_SSH/main/uninstall.sh | sudo bash
+```
+
+Из каталога установки: `sudo bash uninstall.sh`
