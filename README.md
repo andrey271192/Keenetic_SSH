@@ -1,4 +1,4 @@
-# 🔧 Keenetic SSH
+# 🔧 Keenetic SSH через Telegram
 
 Отдельный минимальный сервис: **управление роутерами Keenetic по SSH через Telegram**. Без веб-дашборда, без мониторинга, без HydraRoute — только бот и `sshpass`.
 
