@@ -1,8 +1,8 @@
-# 🔧 Keenetic SSH через Telegram
+# Keenetic SSH через Telegram
 
-Отдельный минимальный сервис: **управление роутерами Keenetic по SSH через Telegram**. Без веб-дашборда, без мониторинга, без HydraRoute — только бот и `sshpass`.
+Минимальный бот: пишешь команду в Telegram — она уходит на роутер по SSH. Без веб-морды, без графиков — зато ставится за пару минут на старый VPS.
 
-Логика SSH и команд взята из [keenetic-unified](https://github.com/andrey271192/keenetic-unified).
+Команды и логика SSH — из [keenetic-unified](https://github.com/andrey271192/keenetic-unified); если нужен полный дашборд, берите тот проект.
 
 ![Превью: Telegram и команды SSH](docs/preview.png)
 
